@@ -1,0 +1,18 @@
+# For 8-bit model loading
+bitsandbytes
+accelerate
+
+# Core ML and audio libraries
+transformers
+diffusers
+librosa
+numba>=0.57.0
+scipy
+
+# Dependencies from the original project
+ml-collections
+absl-py
+
+# Optional: For faster attention on NVIDIA GPUs (T4, V100, etc.)
+# This is often installed separately in a Colab cell to handle hardware specifics.
+flash-attn
